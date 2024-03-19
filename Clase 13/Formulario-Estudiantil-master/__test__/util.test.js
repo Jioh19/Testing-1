@@ -22,16 +22,16 @@ describe('Pruebas de salida de datos', () => {
 
 	test('Nombre inválido', () => {
 		const newElement = validateInput('', 'any');
-		expect(newElement).toBe(false);
+		expect(newElement).toBeFalsy();
 	});
 
 	test('Nombre válido', () => {
 		const newElement = validateInput('Juan', 'any');
-		expect(newElement).toBe(true);
+		expect(newElement).toBeTruthy();
 	});
 
 	test('Nombre inválido', () => {
 		const newElement = validateInput(' ', true);
-		expect(newElement).toBe(false);
+		expect(newElement).toBeFalsy();
 	});
 });

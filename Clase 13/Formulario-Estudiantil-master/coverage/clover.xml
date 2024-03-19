@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1710819285441" clover="3.2.0">
-  <project timestamp="1710819285441" name="All files">
+<coverage generated="1710820152890" clover="3.2.0">
+  <project timestamp="1710820152890" name="All files">
     <metrics statements="14" coveredstatements="14" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2" elements="28" coveredelements="28" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
     <file name="util.js" path="/home/jioh/Projects/Digital House/Testing 1/Clase 13/Formulario-Estudiantil-master/util.js">
       <metrics statements="14" coveredstatements="14" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
